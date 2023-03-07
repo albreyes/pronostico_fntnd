@@ -14,19 +14,19 @@
     </head>
     <body>
         <div id="cuadro">
-            <form>
+            <form action="Validar" method="POST">
                 <p id="titulo"> INICIAR SESIÓN</p>
                 <hr>
                 <br><br><!-- comment -->
                 <label id="subtitulo1">NOMBRE DE USUARIO</label>
                 <br> <br><!-- comment -->
-                <input type="text" class="entrada"/> 
+                <input type="text" name="txtuser" class="entrada"/> 
                 <br> <br><!-- comment -->
                 <label id="subtitulo2">CONTRASEÑA</label>
                 <br> <br>
-                <input type="password" class="entrada"/>
+                <input type="password" name="txtpass" class="entrada"/>
                 <br> <br>
-                <input type="submit" value="INICIAR SESIÓN" id="boton"/> 
+                <input type="submit" name="accion" value="Ingresar" id="boton"/> 
             </form>
             <br><!-- comment -->
             <p id="marca">INEEL/AES</p>
